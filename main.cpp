@@ -19,11 +19,6 @@ int main()
     gets(s);
     strlwr(s);
 
-    if (!strcmp(s, "asshole") || !strcmp(s, "fuck you") || !strcmp(s, "fuck") || !strcmp(s, "get lost") || !strcmp(s, "bitch") || !strcmp(s, "son of a bitch"))
-    {
-      cout << "screw you retard.";
-      goto bye;
-    }
     else if (!strcmp(s, "hi") || !strcmp(s, "hello") || !strcmp(s, "hello there") || !strcmp(s, "hy") || !strcmp(s, "yo") || !strcmp(s, "hey"))
     {
       switch (z)
