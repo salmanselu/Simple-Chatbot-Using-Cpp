@@ -19,7 +19,7 @@ int main()
     gets(s);
     strlwr(s);
 
-    else if (!strcmp(s, "hi") || !strcmp(s, "hello") || !strcmp(s, "hello there") || !strcmp(s, "hy") || !strcmp(s, "yo") || !strcmp(s, "hey"))
+    if (!strcmp(s, "hi") || !strcmp(s, "hello") || !strcmp(s, "hello there") || !strcmp(s, "hy") || !strcmp(s, "yo") || !strcmp(s, "hey"))
     {
       switch (z)
       {
