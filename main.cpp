@@ -7,7 +7,6 @@ using namespace std;
 
 int main()
 {
-  system("color a");
   cout << "\n";
   while (1)
   {
